@@ -1,0 +1,35 @@
+@media only screen and (max-width: 610px) {
+    #Menu{
+        gap: 5px;
+    }
+
+}
+
+@media only screen and (max-width: 850px) {
+    #PhotoSlides{
+        scale: 1.2;
+    }
+    div#articleS1area{
+        bottom: 11vh;
+    }
+    div#Textholder{
+        height: 110px;
+    }
+    #ExampleText{
+        margin-right: 10%;
+    }
+
+}
+@media only screen and (max-width: 530px) {
+    #articleS1 h2{
+        font-size: 2.2rem;
+        margin-top: 7%;
+        text-align: center;
+    }
+    #articleS1 h1{
+        font-size: 1rem;
+    }
+    #ExampleText{
+        margin-right: 25%;
+    }
+}
