@@ -32,4 +32,28 @@
     #ExampleText{
         margin-right: 25%;
     }
+    div#gridimgsClassContainer1{
+        flex-wrap: wrap;
+    }
+    div#gridimgsClassContainer2{
+        flex-wrap: wrap;
+    }
+    div#gridimgsClassContainer3{
+        flex-wrap: wrap;
+    }
+    span.gridimgsClass{
+        width: 30vw;
+    }
+    #gridimgsID1{
+        width: 90%;
+    }
+    #gridimgsID2{
+        width: 90%;
+    }
+    #gridimgsID3{
+        width: 90%;
+    }
+    article#articleS2{
+        height: 1180px;
+    }
 }
