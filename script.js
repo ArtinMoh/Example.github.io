@@ -11,6 +11,16 @@ window.addEventListener('scroll', function() {
         targetH.style.height='11%';
     }
 });
+// window.addEventListener('scroll', function() {
+//     const targetH = document.querySelector('header');
+
+//     if (window.scrollY =-1) {
+//         targetH.style.visibility='hidden'; // visible
+//     } 
+//     else if (window.scrollY =+1) {
+//         targetH.style.visibility='visible'; // Hide it again if needed
+//     }
+// });
 window.addEventListener('scroll', function() {
 const targetT = document.getElementById('ExampleText')
 const scrollPosition = window.scrollY;
@@ -66,3 +76,56 @@ window.addEventListener('scroll', () => {
       PhotoSlidesimg3.style.marginLeft = `25vw`;
     }
   });
+
+
+  window.addEventListener('scroll', function() {
+    const target = document.getElementById('gridimgsClassContainer1');
+    const scrollPosition = window.scrollY;
+
+    if (scrollPosition >= 205) {
+        target.classList.remove('hidden');
+        target.classList.add('visible'); // visible
+    } 
+    // else {
+    //     target.classList.add('hidden'); // Hide it again if needed
+    // }
+});
+window.addEventListener('scroll', function() {
+  const target = document.getElementById('gridimgsClassContainer2');
+  const scrollPosition = window.scrollY;
+
+  if (scrollPosition >= 449) {
+      target.classList.remove('hidden');
+      target.classList.add('visible'); // visible
+  } 
+  // else {
+  //     target.classList.add('hidden'); // Hide it again if needed
+  // }
+});
+window.addEventListener('scroll', function() {
+  const target = document.getElementById('gridimgsClassContainer3');
+  const scrollPosition = window.scrollY;
+
+  if (scrollPosition >= 649) {
+      target.classList.remove('hidden');
+      target.classList.add('visible'); // visible
+  } 
+  //  else {
+  //      target.classList.add('hidden'); // Hide it again if needed
+  //  }
+});
+
+
+window.addEventListener('scroll', function() {
+  const target2 = document.querySelector('span.gridimgsClass2');
+  const scrollPosition = window.scrollY;
+
+  if (scrollPosition >= 1200) {
+      target2.style.width='50vw';
+      target2.style.opacity='1';
+  } 
+  else {
+      target2.style.width='45%'; // Hide it again if needed
+      target2.style.opacity='.55';
+  }
+});
