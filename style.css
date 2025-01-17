@@ -6,19 +6,19 @@
 }
 @font-face {
     font-family: 'S2Font';
-    src: url('fonts/Bricolage_Grotesque/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf') format('truetype'); /* Safari, Android, iOS */
+    src: url('fonts/Bricolage_Grotesque1/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf') format('truetype'); /* Safari, Android, iOS */
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'S2FontBold';
-    src: url('fonts/Bricolage_Grotesque/static/BricolageGrotesque-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+    src: url('fonts/Bricolage_Grotesque1/static/BricolageGrotesque-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'S2FontExtraBold';
-    src: url('fonts/Bricolage_Grotesque/static/BricolageGrotesque-ExtraBold.ttf') format('truetype'); /* Safari, Android, iOS */
+    src: url('fonts/Bricolage_Grotesque1/static/BricolageGrotesque-ExtraBold.ttf') format('truetype'); /* Safari, Android, iOS */
     font-weight: normal;
     font-style: normal;
 }
