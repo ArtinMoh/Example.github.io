@@ -56,4 +56,12 @@
     article#articleS2{
         height: 1180px;
     }
+
+    h4#informationH4{
+        font-size: 1.3rem;
+        margin-right: 3.5%;
+    }
+    span.gridimgsClass2{
+        max-width: 52%;
+    }
 }
