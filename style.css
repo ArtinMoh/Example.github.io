@@ -6,19 +6,19 @@
 }
 @font-face {
     font-family: 'S2Font';
-    src: url('fonts/Bricolage_Grotesque1/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf') format('truetype'); /* Safari, Android, iOS */
+    src: url('fonts/Bricolage_Grotesque/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf') format('truetype'); /* Safari, Android, iOS */
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'S2FontBold';
-    src: url('fonts/Bricolage_Grotesque1/static/BricolageGrotesque-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+    src: url('fonts/Bricolage_Grotesque/static/BricolageGrotesque-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'S2FontExtraBold';
-    src: url('fonts/Bricolage_Grotesque1/static/BricolageGrotesque-ExtraBold.ttf') format('truetype'); /* Safari, Android, iOS */
+    src: url('fonts/Bricolage_Grotesque/static/BricolageGrotesque-ExtraBold.ttf') format('truetype'); /* Safari, Android, iOS */
     font-weight: normal;
     font-style: normal;
 }
@@ -104,6 +104,7 @@ header{
 #Menu img {
     scale: 2;
     max-height: 3vh;
+    /* pointer-events: none; */
 }
 
 img#MenuImgC {
@@ -376,7 +377,7 @@ p#descriptionP{
 
 
 article#articleS4 {
-    height: 1160px;
+    height: 1268px;
     display: flex
 ;
     justify-content: flex-start;
@@ -394,6 +395,7 @@ div#information {
 ;
     flex-direction: row;
     flex-wrap: nowrap;
+    overflow: hidden;
 
 }
 h4#informationH4 {
@@ -402,6 +404,9 @@ h4#informationH4 {
     font-family: s2fontextrabold;
     color: white;
     text-shadow: 1.45px 1.7px black;
+    bottom: 0%;
+    position: relative;
+    transition: .9s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 p#informationP {
     font-size: 1.15rem;
@@ -412,6 +417,8 @@ p#informationP {
     text-shadow: 1.45px 1.7px #000000b0;
     /* background: linear-gradient(45deg, #9d5f9d7d, transparent); */
     background: linear-gradient(45deg, #9d5f9d7d, #9d5f9d1c, transparent);
-    padding: 1rem;
+    padding: 1.2rem;
     border-radius: 3px;
+    overflow: auto;
+    /* max-height: 500px; */
 }
